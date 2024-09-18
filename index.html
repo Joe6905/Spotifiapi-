@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Search</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+   </head>
+<body>
+    <h1>Spotify Search</h1>
+    <input type="text" id="searchQuery" placeholder="Search for a track or playlist..." />
+    <button onclick="searchSpotify()">Search</button>
+
+    <div class="results">
+        <div class="playlist-container">
+            <h2>Playlists</h2>
+            <div id="playlistResults"></div>
+            <button class="load-more hidden" id="loadMorePlaylists" onclick="loadMorePlaylists()">Load More Playlists</button>
+        </div>
+
+        <div class="additional-container">
+            <div class="additional-content">
+                <h2>Featured Playlist</h2>
+                <iframe
+                    title="Spotify Embed: Featured Playlist"
+                    src="https://open.spotify.com/embed/playlist/3If2VnN90qpgIcS1d3Nh4D?utm_source=generator&theme=0"
+                    class="playlist-embed"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                ></iframe>
+            </div>
+        </div>
+
+        <div class="track-container">
+            <h2>Tracks</h2>
+            <div id="trackResults"></div>
+            <button class="load-more hidden" id="loadMoreTracks" onclick="loadMoreTracks()">Load More Tracks</button>
+        </div>
+    </div>
+
+</body>
+</html>
