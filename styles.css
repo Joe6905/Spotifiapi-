@@ -1,0 +1,94 @@
+   body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #1DB954;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 16px;
+            border: 1px solid #1DB954;
+            border-radius: 5px;
+            background-color: #282828;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #1DB954;
+            color: white;
+        }
+
+        .results {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .playlist-container, .track-container, .additional-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .playlist, .track {
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .track iframe {
+            transition: height 0.3s;
+            height: 80px; /* Default height */
+        }
+
+        .track:hover iframe {
+            height: 150px; /* Height on hover */
+        }
+
+        .load-more {
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #1DB954;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .additional-content {
+            width: 100%;
+            min-height: 360px;
+            background-color: #282828;
+            border-radius: 5px;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #e0e0e0;
+        }
+
+        .playlist-embed {
+            width: 100%;
+            height: 360px;
+            border: none;
+            border-radius: 5px;
+            overflow: hidden;
+        }
