@@ -41,9 +41,9 @@
             margin-top: 30px;
         }
 
-        .playlist-container, .track-container, .additional-container {
+        .playlist-container, .additional-container {
             display: flex;
-            flex-direction: row;
+            flex-direction:column;
             align-items: center;
         }
 
