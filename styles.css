@@ -43,7 +43,7 @@
 
         .playlist-container, .track-container, .additional-container {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
         }
 
