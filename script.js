@@ -1,4 +1,5 @@
-        const accessToken = 'BQDsoXeNV-Z8P7-Zz2cMXxMwoCJpuONuwPEwnOH9ZORL2UpRaS2GQVlByJXPJW-tfdvsHfMNwABRKUg_CAWcLQoXjgTwSlv9NP6LIEYw4njkSKjI7evNGAAZJEqLci7Sbi8VBDLn1DXW4UpRdaj5H6htKIU45aGBrgIpvEim-PHj53V8OSNyMiWRJme_kzM42PWOENB0EkUWS6T3f-7QwbyZk77RnA1vPDBAEwyPv1_2Ag2K31WePrjvciLf_lSXL6GLKzUmEjZN3s1pwc4XUHTwNGNl59vkOAn8KHUtn0U8PVY5YC8A4KZTR-09_8sG';  // Replace with a valid Spotify Access Token
+        
+const token = 'BQA_MIkePVYUC3MenWBgloAMiajiBJUAdJii-yojbp51IcwzqHik9dpMQ7n6bD7mMPSjZi0x6PGI7pyg9a8jFm1-_-nn3PU-xQApp0XJ9rs8HTjdEDH6Y4lMiXGxV3AVQgft5fvRyM_l5Ms9Za8QtT0dHjyn0SlClIp52fTs7PhbU5GMPbm02dsCr8PaCR-ysZqpZS6uzd_oYtCzI_L5vSIwgCTAaIFwuEr67jUcmmvls6sg-3VMe71o84n7KoNig2XJM2z_A50ROvk4EUJM8EN_zNXPFtQ5GMqfWHtG1ZacbcgTS1RjcslUeYNJxIfXxghw';
         let trackOffset = 0;
         let playlistOffset = 0;
 
